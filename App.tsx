@@ -1,7 +1,12 @@
 import React from "react";
-import { createTheme, darkColors, lightColors, ThemeProvider } from "@rneui/themed";
+import {
+  createTheme,
+  darkColors,
+  lightColors,
+  ThemeProvider,
+} from "@rneui/themed";
 import ModeSwitch from "./components/ModeSwitch";
-import { Platform } from "react-native";
+import { Platform, View } from "react-native";
 
 const theme = createTheme({
   lightColors: {

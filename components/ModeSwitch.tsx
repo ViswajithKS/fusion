@@ -1,6 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-import { makeStyles, Text, Button, useThemeMode } from "@rneui/themed";
+import { makeStyles, Button, useThemeMode } from "@rneui/themed";
 
 export default function ModeSwitch() {
   const styles = useStyles();
@@ -12,7 +12,9 @@ export default function ModeSwitch() {
 
   return (
     <View style={styles.container}>
-      <Button onPress={handleOnPress}>{mode==="dark"?"light":"dark"}</Button>  
+      <Button onPress={handleOnPress}>
+        {mode === "dark" ? "light" : "dark"}
+      </Button>
     </View>
   );
 }
