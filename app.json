@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "fusion",
+    "slug": "fusion",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/placeholder.png",
+    "splash": {
+      "image": "./assets/placeholder.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#808080"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/placeholder.png",
+        "backgroundColor": "#808080"
+      }
+    },
+    "web": {
+      "favicon": "./assets/placeholder.png"
+    }
+  }
+}
