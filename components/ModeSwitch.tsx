@@ -12,7 +12,7 @@ export default function ModeSwitch() {
 
   return (
     <View style={styles.container}>
-      <Button onPress={handleOnPress}>{mode==="dark"?"light":"dark"}</Button>
+      <Button onPress={handleOnPress}>{mode==="dark"?"light":"dark"}</Button>  
     </View>
   );
 }
